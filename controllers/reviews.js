@@ -1,6 +1,5 @@
-const Review = require("../models/review");
 const Campground = require("../models/campground");
-
+const Review = require("../models/review");
 
 
 module.exports.createReview = async (req, res) => {
@@ -16,7 +15,6 @@ module.exports.createReview = async (req, res) => {
 
 module.exports.deleteReview = async (req, res) => {
     const { id, reviewId } = req.params;
-
     await Campground.findByIdAndUpdate(id, { $pull: { reviews: reviewId } });
     await Review.findByIdAndDelete(reviewId);
     req.flash("success", "You successfully deleted review")
