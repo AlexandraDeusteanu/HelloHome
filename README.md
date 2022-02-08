@@ -26,7 +26,3 @@ This project has been developed using HTML, CSS, Java Script and MongoDB.
 9. Open your browser and go to http://localhost:3000/campgrounds
 10. You can easily create an account and have access to the features mentioned above
  
-
-
-
-
