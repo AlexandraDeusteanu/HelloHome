@@ -26,3 +26,9 @@ This project has been developed using HTML, CSS, Java Script and MongoDB.
 9. Open your browser and go to http://localhost:3000/campgrounds
 10. You can easily create an account and have access to the features mentioned above
  
+# Screenshots
+![registerform](https://user-images.githubusercontent.com/81522471/153095836-d7a7753f-81ad-4d79-9dc5-044acde9d4e8.png)
+![loginform](https://user-images.githubusercontent.com/81522471/153095844-6e4d63f6-2e17-41e5-a807-4e2142b01d84.png)
+![new](https://user-images.githubusercontent.com/81522471/153095861-bd8c3284-677f-4bf8-bb97-c78317994f62.png)
+![campground](https://user-images.githubusercontent.com/81522471/153095877-759b99a0-9f17-4a2c-92a2-295ff8c4054a.png)
+![campgroundshow](https://user-images.githubusercontent.com/81522471/153095880-69d76f7f-c8ce-4743-844a-1a400a0c9cf4.png)
