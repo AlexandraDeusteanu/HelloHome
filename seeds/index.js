@@ -26,7 +26,18 @@ const seedDB = async () => {
             author: "62005b7546125824767e2744",
             location: `${cities[random161].city}, ${cities[random161].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
-            image: "https://source.unsplash.com/collection/483251",
+            images: [
+                {
+                    url: 'https://res.cloudinary.com/diamqhs7d/image/upload/v1644349932/HelloHome/hrxm41cqa1wkhngbjw00.jpg',
+                    filename: 'HelloHome/hrxm41cqa1wkhngbjw00',
+                   
+                  },
+                  {
+                    url: 'https://res.cloudinary.com/diamqhs7d/image/upload/v1644349932/HelloHome/au7d2is6tnsz8nsdjfmp.jpg',
+                    filename: 'HelloHome/au7d2is6tnsz8nsdjfmp',
+                
+                  }
+            ],
             description: "Spacing utilities that apply to all breakpoints, from xs to xxl, have no breakpoint abbreviation in them. This is because those classes are applied from min-width: 0 and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.",
             price: price
 
