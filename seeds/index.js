@@ -23,6 +23,7 @@ const seedDB = async () => {
         const random161 = Math.floor(Math.random() * 161);
         const price = Math.floor(Math.random() * 30) + 10;
         const camp = new Campground({
+            //MY user id
             author: "62005b7546125824767e2744",
             location: `${cities[random161].city}, ${cities[random161].state}`,
             title: `${sample(descriptors)} ${sample(places)}`,
@@ -38,8 +39,12 @@ const seedDB = async () => {
                 
                   }
             ],
-            description: "Spacing utilities that apply to all breakpoints, from xs to xxl, have no breakpoint abbreviation in them. This is because those classes are applied from min-width: 0 and up, and thus are not bound by a media query. The remaining breakpoints, however, do include a breakpoint abbreviation.",
-            price: price
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            price: price,
+            geometry : {   
+                 type : "Point", 
+                 coordinates : [ 28.63833, 44.17333 ]
+         }
 
         })
         await camp.save();
