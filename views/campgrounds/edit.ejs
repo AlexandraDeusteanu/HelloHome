@@ -3,7 +3,6 @@
     <div class="row">
         <h1 class="text-center">Edit campground</h1>
         <div class="col-6 offset-3">
-            <h1>Create a new campground</h1>
             <form action="/campgrounds/<%=campground._id%>?_method=put" method="post" novalidate class="validatedForm" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label class="form-label" for="title">Title</label>
@@ -34,6 +33,7 @@
                 <div class="mb-3">
                     <% campground.images.forEach(function(image, i) { %> 
                         <img src="<%=image.thumbnail %>" alt="">
+                    
                         <div>
                         <input type="checkbox" id="image-<%=i%>" name="deleteImages[]" value="<%=image.filename %>">
                         <label for="image-<%=i%>">Delete image</label>
