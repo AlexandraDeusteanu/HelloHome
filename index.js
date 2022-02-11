@@ -25,7 +25,11 @@ const reviewsRoutes = require("./routes/reviews");
 const usersRoutes = require("./routes/users")
 const mongoSanitize = require('express-mongo-sanitize');
 
-mongoose.connect('mongodb://localhost:27017/hello-home'), {
+const MongoDBStore = require("connect-mongo")(session)
+const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/hello-home';
+
+
+mongoose.connect(dbUrl), {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,
@@ -101,10 +105,20 @@ app.use(
     )
 );
 
+const secret = process.env.SECRET || "thisissecret";
+const store = new MongoDBStore({
+    url: dbUrl,
+    secret,
+    touchAfter: 24 * 60 * 60
+})
 
+store.on("error", function(e) {
+    console.log(e, "error session")
+})
 const sessionConfig = {
+    store,
     name: "session",
-    secret: "thisshouldbeabettersecret",
+    secret,
     resave: false,
     saveUninitialized: true,
     cookie: {
