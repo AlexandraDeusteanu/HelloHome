@@ -4,9 +4,11 @@ body {
             linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
             url("https://images.unsplash.com/photo-1639578656452-874cba2d389e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     text-shadow: 0 0.05rem 0.1rem rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0rem 5rem rgba(255, 255, 255, 0.5);
+    /* box-shadow: 0 0rem 5rem rgba(255, 255, 255, 0.5); */
 
         }  
 .cover-container {
@@ -30,7 +32,7 @@ body {
 }
 
 .btn-secondary, .btn-secondary:hover {
-    margin: 1rem;
+    margin-top: 1rem;
     color: rgba(36, 36, 36, 0.829);
     font-weight: bold;
 }
@@ -39,4 +41,30 @@ body {
     color: rgb(184, 184, 184);
     font-size: 20px;
     font-weight: 300;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 808px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+       
+    }
+   .nav-link {
+       margin-left: 0;
+   }
+   
 }
