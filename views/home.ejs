@@ -13,12 +13,12 @@
 </head>
 
 <body class="d-flex text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="cover-container d-flex p-3 w-100 h-100 mx-auto flex-column">
         <header class="mb-auto">
-            <div class="d-flex justify-content-between p-2 bd-highlight">
-                <h3 class="">YelpCamp</h3>
+            <div class="d-flex justify-content-between p-2 bd-highlight" id="navbar">
+                <h3><a id="logo" href="/campgrounds">YelpCamp</a></h3>
                 <nav class="nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
                     <a class="nav-link" href="/campgrounds">Campgrounds</a>
                     <% if(!currentUser) { %>
                     <a class="nav-link" href="/login">Login</a>
@@ -29,20 +29,20 @@
                 </nav>
             </div>
         </header>
-
+    
         <main class="px-3">
-<h1>YelpCamp</h1>
-<p class="lead">  Welcome to YelpCamp!<br> "To be whole. To be complete. Wildness reminds us what it means to be human, what we are connected to rather than what we are separate from."<br> <span id="author">-Terry Tempest Williams</span>
-    <br>
+            <h1>YelpCamp</h1>
+                <p class="lead">  Welcome to YelpCamp!<br> "To be whole. To be complete. Wildness reminds us what it means to be human, what we are connected to rather than what we are separate from."<br> <span id="author">-Terry Tempest Williams</span>
+                     <br>
 
-    <a href="/campgrounds" class="btn btn-lg btn-secondary font-weight-bold bg-white">View Campgrounds</a>
-</p>
+                        <a href="/campgrounds" class="btn btn-lg btn-secondary font-weight-bold bg-white align-self-center" id="allcamps">View Campgrounds</a>
+                </p>
 
         </main>
 <footer class="mt-auto text-white-50">
 <p>&copy;  2022 YelpCamp</p>
 </footer>
-        
+     </div>   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
