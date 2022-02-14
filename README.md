@@ -27,8 +27,9 @@ This project has been developed using HTML, CSS, Java Script and MongoDB.
 10. You can easily create an account and have access to the features mentioned above
  
 # Screenshots
-![registerform](https://user-images.githubusercontent.com/81522471/153095836-d7a7753f-81ad-4d79-9dc5-044acde9d4e8.png)
-![loginform](https://user-images.githubusercontent.com/81522471/153095844-6e4d63f6-2e17-41e5-a807-4e2142b01d84.png)
-![new](https://user-images.githubusercontent.com/81522471/153095861-bd8c3284-677f-4bf8-bb97-c78317994f62.png)
-![campground](https://user-images.githubusercontent.com/81522471/153095877-759b99a0-9f17-4a2c-92a2-295ff8c4054a.png)
-![campgroundshow](https://user-images.githubusercontent.com/81522471/153095880-69d76f7f-c8ce-4743-844a-1a400a0c9cf4.png)
+
+![homepage](https://user-images.githubusercontent.com/81522471/153831416-5035c537-e8f4-4059-b9df-afefc5af9769.png)
+![campgrounds](https://user-images.githubusercontent.com/81522471/153831423-a9e45b63-1695-4eab-a5fa-23e469d4ecb9.png)
+![showpage](https://user-images.githubusercontent.com/81522471/153831426-ebb6f860-9eb4-448e-9471-6c71279c089e.png)
+![newcamp](https://user-images.githubusercontent.com/81522471/153831473-48c9bf67-2b08-46d6-8e83-f98fb9f38a8f.png)
+![edit](https://user-images.githubusercontent.com/81522471/153831484-49bba90d-5e2c-4caf-b001-7be70fd2312d.png)
