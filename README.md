@@ -1,7 +1,7 @@
 # YelpCamp
 YelpCamp is a Web App that enables registered users to create vacation campgrounds or to leave reviews for campgrounds that already exist. 
 Registered users are allowed to update campgrounds details or delete them if they are the owner of a specific campground.
-Any registered users can leave reviews, edit their reviews or delete them.
+Any registered users can leave reviews.
 This project has been developed using HTML, CSS, Java Script and MongoDB.
 
 # Features
@@ -12,7 +12,6 @@ This project has been developed using HTML, CSS, Java Script and MongoDB.
 - Image upload for campgrounds 
 - Review Creation
 - 5 star rating system
-- Review Edit
 - Review Deletion
 
 # Setup
