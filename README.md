@@ -1,5 +1,5 @@
-# HelloHome
-Hello home is a Web App that enables registered users to create vacation campgrounds or to leave reviews for campgrounds that already exist. 
+# YelpCamp
+YelpCamp is a Web App that enables registered users to create vacation campgrounds or to leave reviews for campgrounds that already exist. 
 Registered users are allowed to update campgrounds details or delete them if they are the owner of a specific campground.
 Any registered users can leave reviews, edit their reviews or delete them.
 This project has been developed using HTML, CSS, Java Script and MongoDB.
